@@ -10,9 +10,31 @@ App.Collections.Projects()
  .where('serviceType', '=', 'HVAC')
  .sort('createdAt', -1)
  .sort('cost', 1)
+ .limit(5)
+ .skip(10)
  .fetch()
  .then((results) => console.log(results))
 ```
+
+Resulting query :
+```
+.find({
+  "createdAt": {
+    "$gte": new Date()
+  },
+  "serviceType": "HVAC"
+}, {
+  "sort": {
+    "createdAt": -1,
+    "cost": 1
+  },
+  "limit": 5,
+  "skip": 10
+})
+```
+
+***hint***
+You can always view your query by running `.getQuery()` instead of `fetch()` `cursor()` or `aggregate()` to get the options for the query run `getOptions()` to view an aggregation run `getAggregation()`
 
 ####Operators
 Singularity has changed the MongoDB operators to match what most developers are used to when programming.

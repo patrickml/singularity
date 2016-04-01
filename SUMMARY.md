@@ -1,5 +1,5 @@
 # Summary
 
 * [Overview](overview.md)
-* Queries
+* [Queries](documentation/queries/queries.md)
 

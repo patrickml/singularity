@@ -2,14 +2,14 @@
 
 Singularity has many types of queries enabled. Each query operator can be added used multiple times and compounded at the end when the final query is built
 
-Example : 
+Example :
 
 ```js
 App.Collections.Projects()
  .where('createdAt', '>=', new Date())
  .where('serviceType', '=', 'HVAC')
- .sort('createdAt', -1)
- .sort('cost', 1)
+ .sortBy('createdAt', -1)
+ .sortBy('cost', 1)
  .fetch()
  .then((results) => console.log(results))
 ```
@@ -30,7 +30,7 @@ Singularity has changed the MongoDB operators to match what most developers are 
 ```
 
 ####Where
-Where has the capability to find by various operators. 
+Where has the capability to find by various operators.
 
 ```js
 where(key, is, value)

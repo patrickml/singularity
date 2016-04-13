@@ -7,7 +7,7 @@
        * [Select](documentation/queries/select.md)
        * [SortBy](documentation/queries/sortby.md)
    * [Aggregations](documentation/aggregations/aggregationsmd.md)
-       * [GeoNear](documentation/aggregations/geonear/geonear.md/geonear.md)
+       * [GeoNear](documentation/aggregations/geonear/README.md)
        * [GroupBy](documentation/aggregations/groupby.md)
            * [Avg](documentation/aggregations/groupby/avg.md)
            * Sum

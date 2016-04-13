@@ -64,7 +64,7 @@ Collection()
  .cursor()
 ```
 
-####Select
+####[Select](./select.md)
 Select has the capability to pick out fields to be returned by the database
 
 ```js

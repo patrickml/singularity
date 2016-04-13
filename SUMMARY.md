@@ -3,7 +3,7 @@
 * [Introduction](README.md)
    * [Aggregations](documentation/aggregations/aggregationsmd.md)
        * [GroupBy](documentation/aggregations/groupby.md)
-           * Avg
+           * [Avg](documentation/aggregations/groupby/avg.md/avg.md)
            * Sum
            * Min
            * Max

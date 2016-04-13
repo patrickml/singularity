@@ -15,5 +15,5 @@
            * [Min](documentation/aggregations/groupby/min.md)
            * [Max](documentation/aggregations/groupby/max.md)
            * [First](documentation/aggregations/groupby/first.md)
-           * Last
+           * [Last](documentation/aggregations/groupby/last.md)
 

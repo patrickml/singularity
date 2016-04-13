@@ -3,7 +3,7 @@
 where(key, is, value)
 ```
 
-Where has the capability to find by various operators. In MongoDB this is where you would put an object into your `find` function like so
+Where has the capability to find by various [operators](./operators.md). In MongoDB this is where you would put an object into your `find` function like so
 
 ```js
 Collection.find({

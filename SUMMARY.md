@@ -11,7 +11,7 @@
            * [Near](documentation/aggregations/geonear/near.md)
        * [GroupBy](documentation/aggregations/groupby/README.md)
            * [Avg](documentation/aggregations/groupby/avg.md)
-           * Sum
+           * [Sum](documentation/aggregations/groupby/sum.md)
            * Min
            * Max
            * First

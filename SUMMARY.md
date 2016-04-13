@@ -9,7 +9,7 @@
    * [Aggregations](documentation/aggregations/aggregationsmd.md)
        * [GeoNear](documentation/aggregations/geonear/README.md)
            * Near
-       * [GroupBy](documentation/aggregations/groupby.md)
+       * [GroupBy](documentation/aggregations/README.md)
            * [Avg](documentation/aggregations/groupby/avg.md)
            * Sum
            * Min

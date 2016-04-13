@@ -2,7 +2,7 @@
 SortBy has the capability to sort a collection by a key either using ASC or DESC
 
 ```js
-where(key, is, value)
+sortBy(key, direction)
 ```
 
 Example :

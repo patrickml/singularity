@@ -9,7 +9,7 @@
            * Max
            * First
            * Last
-       * GeoNear
+       * [GeoNear](documentation/aggregations/geonear/geonear.md/geonear.md)
 * [Queries](documentation/queries/queries.md)
    * [Where](documentation/queries/where.md)
    * [Operators](documentation/queries/operators.md)

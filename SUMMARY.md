@@ -5,5 +5,5 @@
    * [Where](documentation/queries/where.md)
    * [Operators](documentation/queries/operators.md)
    * [Select](documentation/queries/select.md)
-   * SortBy
+   * [SortBy](documentation/queries/sortby.md)
 

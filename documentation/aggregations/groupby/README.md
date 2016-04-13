@@ -1,6 +1,6 @@
 # GroupBy
 
-Example:
+Example :
 
 ```js
 Collections.Projects().where('serviceType', 'in', [ 'HVAC', 'Plumbing' ]).group('serviceType', ($group) => {
@@ -16,7 +16,7 @@ Collections.Projects().where('serviceType', 'in', [ 'HVAC', 'Plumbing' ]).group(
 }).aggregate().then((result) => { console.log(result) })
 ```
 
-result:
+Result :
 ```js
 [
   {

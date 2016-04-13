@@ -1,7 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Aggregations](/documents/aggregations/aggregations.md)
+   * [Aggregations](documents/aggregations/aggregations.md)
+       * GroupBy
 * [Queries](documentation/queries/queries.md)
    * [Where](documentation/queries/where.md)
    * [Operators](documentation/queries/operators.md)

@@ -63,3 +63,35 @@ Collection()
  .where('createdAt', '<=', new Date())
  .cursor()
 ```
+
+####Select
+Select has the capability to pick out fields to be returned by the database
+
+```js
+select(...keys)
+```
+
+Example :
+
+```js
+Collection()
+ .select('createdAt', 'name', 'foobar')
+ .where('createdAt', '<=', new Date())
+ .cursor()
+```
+
+####sortBy
+SortBy has the capability to sort a collection by a key either using acs or decs
+
+```js
+where(key, is, value)
+```
+
+Example :
+
+```js
+Collection()
+ .where('createdAt', '<=', new Date())
+ .sortBy('createdAt', -1)
+ .cursor()
+```

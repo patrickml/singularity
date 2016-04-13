@@ -3,7 +3,7 @@
 Example :
 
 ```js
-Collections.Projects().where('serviceType', 'in', [ 'HVAC', 'Plumbing' ]).group('serviceType', ($group) => {
+Collections.Projects().where('serviceType', 'in', [ 'HVAC', 'Plumbing' ]).groupBy('serviceType', ($group) => {
   $group
    .sum('cost', 'totalSpend')
    .avg('cost', 'avgSpend')
@@ -38,6 +38,49 @@ Result :
     "firstCreated": "2016-06-02T11:09:01.841Z",
     "lastCreated": "2016-03-09T08:47:15.164Z",
     "clientId": "37ed7797-4316-53f4-a115-7632801d4a95"
+  }
+]
+```
+
+MongoDB Aggregation :
+
+```js
+[
+  {
+    "$group": {
+      "totalSpend": {
+        "$sum": "$cost"
+      },
+      "avgSpend": {
+        "$avg": "$cost"
+      },
+      "minSpend": {
+        "$min": "$cost"
+      },
+      "maxSpend": {
+        "$max": "$cost"
+      },
+      "firstCreated": {
+        "$first": "$createdAt"
+      },
+      "lastCreated": {
+        "$last": "$createdAt"
+      },
+      "clientId": {
+        "$first": "$clientId"
+      },
+      "_id": "$serviceType"
+    }
+  },
+  {
+    "$match": {
+      "serviceType": {
+        "$in": [
+          "HVAC",
+          "Plumbing"
+        ]
+      }
+    }
   }
 ]
 ```

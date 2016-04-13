@@ -80,11 +80,11 @@ Collection()
  .cursor()
 ```
 
-####sortBy
+####[SortBy](./sortby.md)
 SortBy has the capability to sort a collection by a key either using acs or decs
 
 ```js
-where(key, is, value)
+sortBy(key, direction)
 ```
 
 Example :

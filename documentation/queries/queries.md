@@ -34,7 +34,7 @@ Resulting query :
 ***hint***
 You can always view your query by running `.getQuery()` instead of `fetch()` `cursor()` or `aggregate()` to get the options for the query run `getOptions()` to view an aggregation run `getAggregation()`
 
-####Operators
+####[Operators](./operators.md)
 Singularity has changed the MongoDB operators to match what most developers are used to when programming.
 
 ```
@@ -49,7 +49,7 @@ Singularity has changed the MongoDB operators to match what most developers are 
  or is $or
 ```
 
-####Where
+####[Where](./where.md)
 Where has the capability to find by various operators.
 
 ```js

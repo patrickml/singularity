@@ -13,7 +13,7 @@
            * [Avg](documentation/aggregations/groupby/avg.md)
            * [Sum](documentation/aggregations/groupby/sum.md)
            * [Min](documentation/aggregations/groupby/min.md)
-           * Max
+           * [Max](documentation/aggregations/groupby/max.md)
            * First
            * Last
 

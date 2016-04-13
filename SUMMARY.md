@@ -6,4 +6,5 @@
    * [Operators](documentation/queries/operators.md)
    * [Select](documentation/queries/select.md)
    * [SortBy](documentation/queries/sortby.md)
+* Aggregations
 

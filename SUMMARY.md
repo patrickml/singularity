@@ -7,6 +7,7 @@
            * Sum
            * Min
            * Max
+           * First
 * [Queries](documentation/queries/queries.md)
    * [Where](documentation/queries/where.md)
    * [Operators](documentation/queries/operators.md)

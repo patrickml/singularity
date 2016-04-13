@@ -13,3 +13,17 @@ Collection()
  .sortBy('createdAt', -1)
  .cursor()
 ```
+
+MongoDB Example :
+
+```
+Collection.find({
+  createdAt : {
+    $lte : new Date()
+  }
+}, {
+  sort : {
+   createdAt : -1
+  }
+})
+```

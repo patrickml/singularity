@@ -12,7 +12,7 @@
        * [GroupBy](documentation/aggregations/groupby/README.md)
            * [Avg](documentation/aggregations/groupby/avg.md)
            * [Sum](documentation/aggregations/groupby/sum.md)
-           * Min
+           * [Min](documentation/aggregations/groupby/min.md)
            * Max
            * First
            * Last

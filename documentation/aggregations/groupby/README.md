@@ -3,17 +3,20 @@
 Example :
 
 ```js
-Collections.Projects().where('serviceType', 'in', [ 'HVAC', 'Plumbing' ]).groupBy('serviceType', ($group) => {
-  $group
-   .sum('cost', 'totalSpend')
-   .avg('cost', 'avgSpend')
-   .min('cost', 'minSpend')
-   .max('cost', 'maxSpend')
-   .first('createdAt', 'firstCreated')
-   .last('createdAt', 'lastCreated')
-   .first('clientId')
-  .build();
-}).aggregate().then((result) => { console.log(result) })
+Collections.Projects()
+  .where('serviceType', 'in', [ 'HVAC', 'Plumbing' ])
+  .groupBy('serviceType', ($group) => {
+     $group.sum('cost', 'totalSpend')
+           .avg('cost', 'avgSpend')
+           .min('cost', 'minSpend')
+           .max('cost', 'maxSpend')
+           .first('createdAt', 'firstCreated')
+           .last('createdAt', 'lastCreated')
+           .first('clientId')
+           .build();
+  })
+  .aggregate()
+  .then((result) => { console.log(result) })
 ```
 
 Result :

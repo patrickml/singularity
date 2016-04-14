@@ -6,7 +6,7 @@
        * [Operators](documentation/queries/operators.md)
        * [Select](documentation/queries/select.md)
        * [SortBy](documentation/queries/sortby.md)
-   * [Aggregations](documentation/aggregations/aggregationsmd.md)
+   * [Aggregations](documentation/aggregations/README.md)
        * [GeoNear](documentation/aggregations/geonear/README.md)
            * [Near](documentation/aggregations/geonear/near.md)
            * [Where](documentation/aggregations/geonear/where.md)

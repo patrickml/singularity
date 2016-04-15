@@ -1,6 +1,7 @@
 {
   "extends": "airbnb",
   "globals": {
-    "_": true
+    "_": true,
+    "Package": true
   }
 }

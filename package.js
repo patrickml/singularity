@@ -15,8 +15,8 @@ Package.onUse(function (api) {
   api.versionsFrom('1.3');
   api.use([
     'ecmascript',
-    'meteorhacks:aggregate',
-    'patrickml:underscore-get-dot-to-not',
+    'meteorhacks:aggregate@1.3.0',
+    'patrickml:underscore-get-dot-to-not@1.0.0',
   ]);
   api.mainModule('entry.js');
 });

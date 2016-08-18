@@ -3,7 +3,7 @@
 Singularity is a Object Document Mapper (ODM) for MeteorJS. Singularity, allows developers to write single, concise, human readable queries. With Singularities Aggregation Adapter you can create aggregations using the same syntax!
 
 ### Version
-0.0.9
+0.1.0
 
 ### Tech
 

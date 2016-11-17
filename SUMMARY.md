@@ -17,4 +17,5 @@
            * [Max](documentation/aggregations/groupby/max.md)
            * [First](documentation/aggregations/groupby/first.md)
            * [Last](documentation/aggregations/groupby/last.md)
+   * Creating a Collection
 

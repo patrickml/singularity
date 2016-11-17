@@ -18,5 +18,5 @@
            * [First](documentation/aggregations/groupby/first.md)
            * [Last](documentation/aggregations/groupby/last.md)
    * [Creating a Collection](creating_a_collection.md)
-* Creating a Model
+* [Creating a Model](creating_a_model.md)
 

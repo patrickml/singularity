@@ -47,3 +47,26 @@ export class Projects extends Collection {
   }
 }
 ```
+
+#### Use with Existing Collections (Meteor.users)
+
+Sometimes a package will have already created a collection for you. However, you may want to use singularity on that collection, for example `Meteor.users`. Well you are in luck. There is a way to do so and here is an example:
+
+```js
+import { Collection } from 'meteor/patrickml:singularity';
+import { Meteor } from 'meteor/meteor';
+import { User } from '../models/user';
+
+// notice the transform here. Because the collection has already been created we need to manually add the transformation before we pass it into singularity
+Meteor.users._transform = (user) => new User(user);
+
+export class Users extends Collection {
+  constructor() {
+    // we added the key `collection` which references `Meteor.users` singularity will take 
+    // care of everything else from here.
+    super({ name: 'users', model: User, collection: Meteor.users });
+  }
+}
+```
+
+

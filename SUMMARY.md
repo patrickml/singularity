@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * [Creating a Model](creating_a_model.md)
    * [Queries](documentation/queries/queries.md)
        * [Where](documentation/queries/where.md)
        * [Operators](documentation/queries/operators.md)
@@ -17,6 +18,5 @@
            * [Max](documentation/aggregations/groupby/max.md)
            * [First](documentation/aggregations/groupby/first.md)
            * [Last](documentation/aggregations/groupby/last.md)
-   * [Creating a Model](creating_a_model.md)
    * [Creating a Collection](creating_a_collection.md)
 
